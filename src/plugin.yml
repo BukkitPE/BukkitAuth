@@ -1,0 +1,14 @@
+name: BukkitPELogin
+main: net.bukkitpe.BukkitPELogin
+api: 1.0.0
+version: 1.0.0
+author: BukkitPE Team
+website: "http://bukkitpe.net"
+
+commands:
+ login:
+  description: Login command
+  default: true
+ register:
+  description: Register command
+  default: true

@@ -1,7 +1,7 @@
 name: BukkitPELogin
 main: net.bukkitpe.BukkitPELogin
 api: 1.0.0
-version: 1.0.0
+version: 1.0.0b
 author: BukkitPE Team
 website: "http://bukkitpe.net"
 

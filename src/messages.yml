@@ -1,0 +1,38 @@
+m_version: 2
+
+default-language: "eng"
+
+eng-default-prefix: "[BukkitAuth]"
+
+eng-command-login: "login"
+eng-command-register: "register"
+eng-command-manage: "accountmanage"
+eng-command-manage-unregister: "unregister"
+eng-command-manage-change: "change"
+eng-command-manage-subaccount: "allowsub"
+
+eng-command-login-usage: "/login <password>"
+eng-command-login-description: "Do login"
+
+eng-command-register-usage: "/register <password>"
+eng-command-register-description: "Do register"
+
+eng-command-manage-usage: "/accountmanage <unregister>|<change>|<allowsub>"
+eng-command-manage-unregister-usage: "/accountmanage <unregister> <player>"
+eng-command-manage-change-usage: "/accountmanage <change> <player> <password>"
+eng-command-manage-description: "Manage users account"
+
+eng-already-login: "You are already logged in."
+eng-already-register: "You are already registered"
+eng-not-register: "You are not registered"
+eng-not-correct-password: "It is incorrect password"
+eng-to-login: "When you log in, you can play in the server"
+eng-cant-find-player: "The user is never registered on this server"
+
+eng-register-success: "You are now registered"
+eng-login-success: "You are now logged in"
+eng-change-password: "The password for the %player% was changed to %password%."
+eng-unregister-player: "Unregistered %player%"
+eng-set-allow-subaccount: "%bool% subaccount"
+eng-must-in-game: "must in game"
+eng-kick-subaccount: "You already have an account: %name%"

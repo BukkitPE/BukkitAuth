@@ -1,14 +1,19 @@
-name: BukkitPELogin
-main: net.bukkitpe.BukkitPELogin
-api: 1.0.0
-version: 1.0.0b
+name: BukkitAuth
+main: net.BukkitAuth.Main
+version: "1.0.0"
 author: BukkitPE Team
-website: "http://bukkitpe.net"
+api: ["1.0.0"]
 
-commands:
- login:
-  description: Login command
+permissions:
+ bukkitpelogin.*:
   default: true
- register:
-  description: Register command
-  default: true
+  children:
+   bukkitpelogin.commands.*:
+    default: true
+    children:
+     bukkitpelogin.commands.login:
+      default: true
+     bukkitpelogin.commands.register:
+      default: true
+     bukkitpelogin.commands.manage:
+      default: OP

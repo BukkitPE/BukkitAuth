@@ -8,4 +8,4 @@ Commands:
 
 Note: This is still in Beta. So, there will be bugs.
 
-You can also grab a package jar of BukkitAuth at BukkitPe plugin section via our forums
+You can also grab a package jar of BukkitAuth[http://forums.bukkitpe.net/index.php?plugins/bukkitauth.57/] at BukkitPE plugin section via our forums
